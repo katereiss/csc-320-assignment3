@@ -1,5 +1,3 @@
-// package csc320-assignment3;
-
 import java.util.Scanner;
 
 public class tax {
@@ -32,11 +30,9 @@ public class tax {
         taxRate = .3;
     }
         
-
     taxWithholding = income * taxRate;
 
     System.out.println("Your weekly tax withholding: " + taxWithholding);
-
 
 }
 }
