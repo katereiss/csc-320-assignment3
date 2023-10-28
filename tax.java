@@ -35,7 +35,7 @@ public class tax {
 
     taxWithholding = income * taxRate;
 
-    System.out.print("Your weekly tax withholding: " + taxWithholding);
+    System.out.println("Your weekly tax withholding: " + taxWithholding);
 
 
 }
