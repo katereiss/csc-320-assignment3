@@ -17,14 +17,15 @@ public class tax {
     Scanner scnr = new Scanner(System.in);
 
     income = scnr.nextInt();
+    scnr.close();
 
-    if(income > 500){
+    if(income < 500){
         taxRate = .1;
     }
-    else if(income > 1500){
+    else if(income < 1500){
         taxRate = .15;
     }
-    else if(income > 2500){
+    else if(income < 2500){
         taxRate = .2;
     }
     else{
