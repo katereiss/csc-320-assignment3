@@ -1,4 +1,4 @@
-package csc-320-assignment3;
+// package csc320-assignment3;
 
 import java.util.Scanner;
 
@@ -18,17 +18,19 @@ public class tax {
 
     income = scnr.nextInt();
 
-    if {(income > 500)
+    if(income > 500){
         taxRate = .1;
     }
-    else if {(income > 1500)
+    else if(income > 1500){
         taxRate = .15;
     }
-    else if {(income > 2500)
+    else if(income > 2500){
         taxRate = .2;
     }
-    else
+    else{
         taxRate = .3;
+    }
+        
 
     taxWithholding = income * taxRate;
 
